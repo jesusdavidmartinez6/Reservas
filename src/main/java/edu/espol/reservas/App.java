@@ -19,10 +19,6 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         scene = new Scene(loadFXML("primary"), 640, 480);
         stage.setTitle(" ESPOL");
-        System.out.println("hola");
-        System.out.println("hi");
-        System.out.println("hi");
-        System.out.println("djdjdjd");
         stage.setScene(scene);
         stage.show();
     }
