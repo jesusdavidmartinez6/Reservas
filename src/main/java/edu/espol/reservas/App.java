@@ -22,6 +22,7 @@ public class App extends Application {
         System.out.println("hola");
         System.out.println("hi");
         System.out.println("hi");
+        System.out.println("djdjdjd");
         stage.setScene(scene);
         stage.show();
     }
