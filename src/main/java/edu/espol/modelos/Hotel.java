@@ -13,9 +13,9 @@ public class Hotel {
     private String Nombre;
     private String Ciudad ;
     private String Direccion;
-    private String Telefono;
+    private int Telefono;
 
-    public Hotel(String Nombre, String Ciudad, String Direccion, String Telefono) {
+    public Hotel(String Nombre, String Ciudad, String Direccion, int Telefono) {
         this.Nombre = Nombre;
         this.Ciudad = Ciudad;
         this.Direccion = Direccion;
@@ -34,7 +34,7 @@ public class Hotel {
         return Direccion;
     }
 
-    public String getTelefono() {
+    public int getTelefono() {
         return Telefono;
     }
     
