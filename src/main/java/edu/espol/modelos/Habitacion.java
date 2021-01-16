@@ -28,8 +28,9 @@ public class Habitacion {
     private String servicio;
     private String categoria;
     public static ArrayList<Habitacion> habitaciones = new ArrayList<>();
-    public static Set<String> hotels = new HashSet<>();//Para que no se repitan los generos
-    public static ArrayList<String> hoteles = new ArrayList<>(hotels);
+    public static Set<String> hotels = new HashSet<>();//Para que no se repitan 
+    public static Set<String> categorias = new HashSet<>();//Para que no se repitan
+    
 
     public Habitacion(String nombreHotel, String numeroHabitacion, String precio, String servicio, String categoria) {
         this.nombreHotel = nombreHotel;
@@ -103,6 +104,7 @@ public class Habitacion {
                     String[]lineaS= linea.split(";");                  
                     habitaciones.add( new Habitacion(lineaS[0], lineaS[1], lineaS[2], lineaS[3], lineaS[4]));
                     hotels.add(lineaS[0]);
+                    categorias.add(lineaS[4]);
                 }
                 catch(ArrayIndexOutOfBoundsException e){
                     System.err.println("Linea no valida: "+linea);

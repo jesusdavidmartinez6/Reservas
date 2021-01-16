@@ -64,7 +64,7 @@ public class HabitacionController implements Initializable {
             TextField precio1=new TextField();
             TextField servicios1=new TextField();
             ComboBox categoria1=new ComboBox();
-            categoria1.getItems().addAll(Habitacion.hotels);
+            categoria1.getItems().addAll(Habitacion.categorias);
             Label precio=new  Label("Precio");
             Label servicios=new  Label("Servicio");
             Label categoria=new Label("Categoria");
