@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.espol.reservas;
+package edu.espol.modelos;
 
 /**
  *
@@ -37,5 +37,4 @@ public class Hotel {
     public int getTelefono() {
         return Telefono;
     }
-    
 }

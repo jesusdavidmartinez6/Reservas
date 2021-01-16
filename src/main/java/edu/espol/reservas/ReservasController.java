@@ -1,16 +1,17 @@
+package edu.espol.reservas;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.espol.reservas;
 
-import edu.espol.modelos.Habitacion;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 
 /**
@@ -18,18 +19,16 @@ import javafx.scene.control.TextField;
  *
  * @author HOME
  */
-public class HotelesController implements Initializable {
+public class ReservasController implements Initializable {
 
     @FXML
-    private TextField txtNombre;
+    private TextField txtInicio;
     @FXML
-    private TextField txtDireccion;
+    private TextField txtFin;
     @FXML
-    private TextField txtCiudad;
+    private ComboBox<?> CboCateg;
     @FXML
-    private TextField txtTelefono;
-    @FXML
-    private Button btnRegistrar;
+    private Button btnReservar;
 
     /**
      * Initializes the controller class.
@@ -37,7 +36,6 @@ public class HotelesController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    }
-
- 
+    }    
+    
 }
