@@ -8,7 +8,10 @@ package edu.espol.reservas;
 import edu.espol.modelos.Habitacion;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
 
 /**
  * FXML Controller class
@@ -16,6 +19,17 @@ import javafx.fxml.Initializable;
  * @author HOME
  */
 public class HotelesController implements Initializable {
+
+    @FXML
+    private TextField txtNombre;
+    @FXML
+    private TextField txtDireccion;
+    @FXML
+    private TextField txtCiudad;
+    @FXML
+    private TextField txtTelefono;
+    @FXML
+    private Button btnRegistrar;
 
     /**
      * Initializes the controller class.
