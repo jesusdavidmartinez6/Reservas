@@ -1,0 +1,20 @@
+Sonesta;1;50;desayuno gratis, postre,internet,piscina;matrimonial
+Sonesta;2;100;desayuno gratis,postre,pisicina,internet,terraza;suite
+Sonesta;3;70;desayuno gratis, internet,piscina;doble
+Sonesta;4;90;desayuno gratis,interntet,pisicna,terraza;triple
+Olivos;1;50;desayuno gratis, postre,internet,piscina;matrimonial
+Olivos;2;100;desayuno gratis,postre,pisicina,internet,terraza;suite
+Olivos;3;70;desayuno gratis, internet,piscina;doble
+Olivos;4;90;desayuno gratis,interntet,pisicna,terraza;triple
+Anis;1;35;desayuno gratis, postre,internet;matrimonial
+Anis;2;60;desayuno gratis,postre,pisicina,internet;suite
+Anis;3;40;internet,piscina;doble
+Anis;4;50;desayuno gratis,interntet,pisicna,terraza;triple
+Patrimonial;1;40;desayuno gratis, postre,internet,piscina;matrimonial
+Patrimonial;2;80;desayuno gratis,postre,pisicina,internet,terraza;suite
+Patrimonial;3;60;internet,piscina;doble
+Patrimonial;4;70;interntet,pisicna,terraza;triple
+
+
+
+
