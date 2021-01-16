@@ -9,8 +9,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.espol.reservas.HotelesController">
    <center>
       <GridPane BorderPane.alignment="CENTER">
         <columnConstraints>
@@ -28,15 +27,16 @@
          <children>
             <Label alignment="CENTER" text="Ingresar nueva habitación " textAlignment="CENTER" textFill="#e80000" />
             <Label text="Nombre:" GridPane.rowIndex="1" />
-            <TextField prefHeight="25.0" prefWidth="337.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="txtNombre" prefHeight="25.0" prefWidth="337.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <Label text="Dirección" GridPane.rowIndex="2" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="txtDireccion" GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <Label text="Ciudad" GridPane.rowIndex="3" />
             <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField fx:id="txtCiudad" GridPane.columnIndex="1" GridPane.rowIndex="3" />
             <Label text="Telefono" GridPane.rowIndex="4" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="4" />
-            <Button mnemonicParsing="false" text="Cerrar" GridPane.rowIndex="5" />
+            <TextField fx:id="txtTelefono" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" text="Cerrar" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Button fx:id="btnRegistrar" mnemonicParsing="false" text="Registrar" GridPane.rowIndex="5" />
          </children>
       </GridPane>
    </center>
