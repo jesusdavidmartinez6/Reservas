@@ -98,7 +98,6 @@ public class Habitacion {
     public static void llenarHabitacion(){
         try {
             List<String> datos = Files.readAllLines(Paths.get("src/main/resources/files/Habitacion.txt"));
-            datos.remove(0);
             for (String linea: datos){
                 try{
                     String[]lineaS= linea.split(";");                  
