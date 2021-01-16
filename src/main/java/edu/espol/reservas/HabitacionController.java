@@ -35,5 +35,4 @@ public class HabitacionController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         cboHotel.getItems().addAll(Habitacion.hotels);
     }    
-    
 }

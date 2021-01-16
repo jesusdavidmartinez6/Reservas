@@ -37,9 +37,5 @@ public class HotelesController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    } 
-    public HotelesController(){
-        System.out.println(Habitacion.habitaciones);
-    }
-    
+    }   
 }
