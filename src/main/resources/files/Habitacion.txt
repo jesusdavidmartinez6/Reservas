@@ -14,7 +14,4 @@ Patrimonial;1;40;desayuno gratis, postre,internet,piscina;matrimonial
 Patrimonial;2;80;desayuno gratis,postre,pisicina,internet,terraza;suite
 Patrimonial;3;60;internet,piscina;doble
 Patrimonial;4;70;interntet,pisicna,terraza;triple
-
-
-
-
+Sonesta;5;250;agua, luz, desayuno;suite
